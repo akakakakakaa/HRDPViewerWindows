@@ -1,0 +1,55 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#videoRoot {
+	-fx-background-color: #000000;
+}
+
+#videoPopup {
+	-fx-background-radius: 5.0;
+	-fx-border-color: #E0E0E0;
+	-fx-border-radius: 5.0;
+	-fx-background-color: #FFFFFF;
+}
+
+#videoProgress {
+	-fx-background-color: rgba(255,255, 255, 0.3);
+}
+
+#videoIcons {
+	-fx-background-color: linear-gradient(rgba(255,255, 255, 0.05) 0%,
+		rgba(255,255, 255, 0.2) 100%);
+}
+
+#videoImageListBtn, #videoSaveBtn, #videoFolderBtn, #videoOptionBtn, #videoDetectBtn {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+	-fx-background-size: contain;
+}
+
+#videoImageListBtn {
+	-fx-background-image: url("../../image/picture.png");
+}
+
+#videoSaveBtn {
+	-fx-background-image: url("../../image/save.png");
+}
+
+#videoFolderBtn {
+	-fx-background-image: url("../../image/manager.png");
+}
+
+#videoOptionBtn {
+	-fx-background-image: url("../../image/opt.png");
+}
+
+#videoDetectBtn {
+	-fx-background-image: url("../../image/icon_detect.png");
+}
+
+#videoOptions {
+	-fx-background-radius: 5.0;
+	-fx-border-color: #E0E0E0;
+	-fx-border-radius: 5.0;
+	-fx-background-color: #FFFFFF;	
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+
+<TabPane fx:id="mainViewRoot" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainController">
+	<Tab text="main" closable="false">
+		<ScrollPane>
+			<AnchorPane fx:id="mainView">
+				<fx:include fx:id="VideoView1" source="../video/VideoView.fxml" AnchorPane.topAnchor="10"  AnchorPane.rightAnchor="660"/>
+				<fx:include fx:id="VideoView2" source="../video/VideoView.fxml" AnchorPane.topAnchor="10"  AnchorPane.rightAnchor="10" />
+				<fx:include fx:id="VideoView3" source="../video/VideoView.fxml" AnchorPane.topAnchor="500" AnchorPane.rightAnchor="660"/>
+				<fx:include fx:id="VideoView4" source="../video/VideoView.fxml" AnchorPane.topAnchor="500" AnchorPane.rightAnchor="10" />
+			</AnchorPane>
+		</ScrollPane>
+	</Tab>
+</TabPane>
